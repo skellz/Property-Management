@@ -33,6 +33,7 @@ group :doc do
 end
 
 gem 'simple_form'
+gem 'foundation-rails'
 
 group :test do
   gem 'launchy'
