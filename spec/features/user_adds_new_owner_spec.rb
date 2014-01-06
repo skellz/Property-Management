@@ -21,7 +21,7 @@ feature "user adds new owner", %q{
       fill_in "Last name", with: "Smith"
       fill_in "Email", with: "go@new.com"
       fill_in "Company", with: "Nice!"
-      click_on "Create owner"
+      click_on "Create Owner"
 
       expect(page).to have_content "Owner was successfully created"
     end
