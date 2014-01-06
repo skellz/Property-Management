@@ -2,6 +2,7 @@ class BuildingsController < ApplicationController
   before_action :set_building, only: [:show, :destroy] 
 
   def index
+    @buildings = Building.all
   end
 
   def show
