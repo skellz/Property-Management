@@ -1,0 +1,8 @@
+<%= simple_form_for @building do |f| %>
+  <%= f.input :street %>
+  <%= f.input :city %>
+  <%= f.input :state, collection: Country['US'].states.keys %>
+  <%= f.input :zip_code %>
+  <%= f.input :description %>
+  <%= f.button :submit %>
+<% end %>

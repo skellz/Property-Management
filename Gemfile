@@ -34,6 +34,7 @@ end
 
 gem 'simple_form'
 gem 'foundation-rails'
+gem 'countries'
 
 group :test do
   gem 'launchy'
