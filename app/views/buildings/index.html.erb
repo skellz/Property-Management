@@ -1,0 +1,7 @@
+<h1>Here is the Buildings index page</h1>
+
+<% @buildings.each do |building| %>
+  <%= building.street %>
+  <%= link_to "Show", building %>
+  <br>
+<% end %>
